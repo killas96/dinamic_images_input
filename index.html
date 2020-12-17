@@ -1,0 +1,39 @@
+<table id="upload_front">
+  <thead>
+    <th class="uploadImage">Информация о файле</th>
+    <th class="uploadSort">Сортировка</th>
+    <th class="uploadEvent">Действие</th>
+  </thead>
+  <tbody id="toBody">
+    <tr id="toCopy" style="display:none;">
+      <td class="uploadImage">
+        <input type="file" class="input-image" accept=".jpg, .jpeg, .png, .gif">
+        <img width="100" style="display:none;">
+        <span class="file-name"></span>
+        </br>
+        <span class="file-size"></span>
+      </td>
+      <td class="uploadSort">
+        <select style="display:none;"></select>
+      </td>
+      <td class="uploadEvent">
+        <button class="btn btn-danger file-delete" title="Удалить" style="display:none;">Удалить</button>
+      </td>
+    </tr>
+    <tr id="tr_1">
+      <td class="uploadImage">
+        <input type="file" class="input-image" accept=".jpg, .jpeg, .png, .gif">
+        <img width="100" style="display:none;">
+        <span class="file-name"></span>
+        </br>
+        <span class="file-size"></span>
+      </td>
+      <td class="uploadSort">
+        <select name="sort_order[1]" style="display:none;"></select>
+      </td>
+      <td class="uploadEvent">
+        <button class="btn btn-danger file-delete" title="Удалить" style="display:none;">Удалить</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
